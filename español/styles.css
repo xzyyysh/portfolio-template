@@ -1,0 +1,141 @@
+body {
+    padding-top: 76px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h1 {
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero-section p {
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.hero-section .btn {
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.hero-section img {
+    animation: fadeInUp 1s ease-out 0.6s both;
+    max-width: 300px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #667eea !important;
+}
+
+section {
+    scroll-margin-top: 76px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+
+.btn-outline-primary {
+    border-color: #667eea;
+    color: #667eea;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.text-primary {
+    color: #667eea !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+footer {
+    margin-top: auto;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    .hero-section img {
+        margin-top: 2rem;
+        max-width: 250px;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+.fas, .fab {
+    transition: color 0.3s ease;
+}
+
+.fas:hover, .fab:hover {
+    color: #764ba2 !important;
+}
+
+#sobre-mi .col-md-4 {
+    transition: transform 0.3s ease;
+}
+
+#sobre-mi .col-md-4:hover {
+    transform: translateY(-10px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
