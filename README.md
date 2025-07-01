@@ -56,7 +56,7 @@ This project provides a clean, professional portfolio template that developers c
 
 ```bash
 # Clone or download the repository
-git clone <repository-url>
+git clone https://github.com/xzyyysh/portfolio-template.git
 
 # Navigate to your preferred language version
 cd español/    # For Spanish version
